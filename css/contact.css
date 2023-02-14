@@ -1,0 +1,56 @@
+#contato{
+    margin-top: 100px;
+    position: relative;
+}
+.detalhe-cont{
+    position: absolute;
+    width: 60px;
+    z-index: -1;
+    top: -5px;
+    left: -15px;
+}
+.titulo-contato{
+    margin-top: 0px;
+    font-family: bebas neue;
+    font-size: 8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+}
+.text-cont{
+    display: flex;
+    justify-content: space-between;
+}
+.text-cont p{
+    color: #c1c1c1;
+    max-width: 40ch;
+    font-size: 1.125rem;
+    line-height: 1.3;
+}
+.text-cont ul{
+    margin: 0px;
+    padding: 0px;
+}
+.text-cont li{
+    list-style: none;
+    color: #fff;
+    
+    margin-bottom: 15px;
+   
+}
+@media (max-width:800px){
+    .text-cont{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+@media (max-width:450px){
+    .detalhe-cont{
+        width: 30px;
+        top: 5px;
+        left: -10px;
+    }
+    .titulo-contato{
+        font-size: 4rem;
+    }
+}

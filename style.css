@@ -1,18 +1,6 @@
-/* imports */
-@import url(./header.css);
-@import url(./intro.css);
-@import url(./projects.css);
-@import url(./formation.css);
-@import url(./contact.css);
-@import url(./responsive.css);
-
-
-body{
-    margin: 50px;
-    padding: 0px;
-    background-color: #202020;
-    font-family: archivo;
-    min-height: 100vh;
-    max-width: 100vw;
-}
-
+@import url(./css/global.css);
+@import url(./css/header.css);
+@import url(./css/intro.css);
+@import url(./css/projects.css);
+@import url(./css/formation.css);
+@import url(./css/contact.css);
